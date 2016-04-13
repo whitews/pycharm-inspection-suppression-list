@@ -35,7 +35,7 @@ PyMethodFirstArgAssignment,
 PyMethodMayBeStatic,
 PyMethodOverriding, "Used for sub-class method variations (different signature, etc.)"
 PyMethodParameters,
-PyMissingConstructor,
+PyMissingConstructor, "Suppreses warning when a sub-class fails to call it's parent __init__"
 PyNestedDecorators,
 PyNonAsciiChar,
 PyNoneFunctionAssignment,
