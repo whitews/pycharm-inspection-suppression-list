@@ -63,7 +63,7 @@ PyTrailingSemicolon,
 PyTupleAssignmentBalance,
 PyTupleItemAssignment,
 PyTypeChecker,
-PyUnboundLocalVariable,
+PyUnboundLocalVariable, "Suppresses 'referenced before assignment' warning"
 PyUnnecessaryBackslash,
 PyUnreachableCode,
 PyUnresolvedReferences,
