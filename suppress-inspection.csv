@@ -45,7 +45,7 @@ PyPep8,
 PyPep8Naming,
 PyPropertyAccess,
 PyPropertyDefinition,
-PyProtectedMember, "Suppresses access to a protected member of a class (e.g. self._cant_touch_this)"
+PyProtectedMember, "Suppresses access to a protected member of a class (e.g. some_object._cant_touch_this)"
 PyRaisingNewStyleClass,
 PyRedeclaration,
 PyRedundantParentheses,
