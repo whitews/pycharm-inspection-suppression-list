@@ -33,7 +33,7 @@ PyListCreation,
 PyMandatoryEncoding,
 PyMethodFirstArgAssignment,
 PyMethodMayBeStatic,
-PyMethodOverriding, Used for sub-class method variations (different signature, etc.)
+PyMethodOverriding, Used for sub-class method variations (different signature\, etc.)
 PyMethodParameters,
 PyMissingConstructor,
 PyNestedDecorators,
