@@ -3,4 +3,4 @@
 
 These can be found in the PyBundle.properties file inside the pycharm.jar bundle. Just grep for comments with "Inspection":
 
-grep Inspection pycharm/com/jetbrains/python/PyBundle.properties | grep -i ^#
+    grep Inspection pycharm/com/jetbrains/python/PyBundle.properties | grep ^#
