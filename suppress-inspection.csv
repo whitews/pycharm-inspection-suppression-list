@@ -40,7 +40,7 @@ PyNestedDecorators,
 PyNonAsciiChar,
 PyNoneFunctionAssignment,
 PyOldStyleClasses,
-PyPackageRequirements,
+PyPackageRequirements, "Suppresses import of a package not listed in setup 'requires' key, useful for optional packages"
 PyPep8,
 PyPep8Naming,
 PyPropertyAccess,
