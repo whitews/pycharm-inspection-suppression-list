@@ -66,6 +66,6 @@ PyTypeChecker,
 PyUnboundLocalVariable, "Suppresses 'referenced before assignment' warning"
 PyUnnecessaryBackslash,
 PyUnreachableCode,
-PyUnresolvedReferences,
+PyUnresolvedReferences, "Suppresses references like imports and methods that cannot be resolved"
 PyUnsupportedFeatures,
 PyUnusedLocal, "Suppresses unused local variable as well as unused arguments warning"
