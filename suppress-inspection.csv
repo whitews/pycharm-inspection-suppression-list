@@ -10,7 +10,7 @@ PyByteLiteral,
 PyCallByClass,
 PyCallingNonCallable,
 PyChainedComparisons,
-PyClassHasNoInit,
+PyClassHasNoInit, "Used when defining a class that has no __init__ method"
 PyClassicStyleClass,
 PyComparisonWithNone,
 PyCompatibility,
