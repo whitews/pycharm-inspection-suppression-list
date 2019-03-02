@@ -6,3 +6,12 @@
 Inspection suppression strings can be found in the PyBundle.properties file inside the pycharm.jar bundle. Grep for comments including the string "Inspection":
 
     grep Inspection pycharm/com/jetbrains/python/PyBundle.properties | grep ^#
+
+## How to Suppress Inspections in PyCharm
+
+For any inspection warning that you wish to suppress, include a commented line beginning with `noinspection`, followed by the appropriate inspection string. Say you have an import that PyCharm complains about, yet you know it is satisfied by your setup file or requirements.txt file. In my experience, this happens for various NumPy or cv2 methods, or with the PIL library (because the package name differs from its import string). To suppress the inspection warning, add the suppression string on the line just before the offending code, like so:
+
+```
+# noinspection PyPackageRequirements
+import cv2
+```
