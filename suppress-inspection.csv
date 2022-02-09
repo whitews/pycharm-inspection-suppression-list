@@ -69,3 +69,4 @@ PyUnreachableCode,
 PyUnresolvedReferences, "Suppresses references like imports and methods that cannot be resolved"
 PyUnsupportedFeatures,
 PyUnusedLocal, "Suppresses unused local variable as well as unused arguments warning"
+SpellCheckingInspection, "Suppresses 'Typo in word' warning"
