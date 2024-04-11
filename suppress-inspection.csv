@@ -62,7 +62,7 @@ PySuperArguments,
 PyTrailingSemicolon,
 PyTupleAssignmentBalance,
 PyTupleItemAssignment,
-PyTypeChecker, "Suppresses 'Unexpected type" warning"
+PyTypeChecker, "Suppresses 'Unexpected type' warning"
 PyUnboundLocalVariable, "Suppresses 'referenced before assignment' warning"
 PyUnnecessaryBackslash,
 PyUnreachableCode,
